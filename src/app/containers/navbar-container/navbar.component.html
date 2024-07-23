@@ -1,9 +1,18 @@
-<!-- navbar.component.html -->
-<mat-toolbar color="primary">
-    <span>Big Data Big Impact</span>
-    <span class="spacer"></span>
-    <a mat-button routerLink="/" fragment="projects">Projects</a>
-    <a mat-button routerLink="/" fragment="benefits">Benefits</a>
-    <a mat-button routerLink="/" fragment="contact">Contact</a>
-    <a mat-button routerLink="/about">About Us</a>
-  </mat-toolbar>
+<mat-toolbar class="flex justify-between items-center px-4 py-2">
+  <div class="flex items-center">
+    <a href="https://bdbi-url.com" target="_blank" rel="noopener noreferrer" class="flex items-center ml-4 mr-6">
+      <img src="../../../../assets/bdbi-logo.png" alt="BDBI Logo" class="h-8 w-auto">
+    </a>
+    
+    <nav class="flex items-center space-x-4">
+      <button mat-button (click)="navigateToSection('projects')" class="text-sm font-medium">Projects</button>
+      <button mat-button (click)="navigateToSection('benefits')" class="text-sm font-medium">Benefits</button>
+      <button mat-button (click)="navigateToSection('contact')" class="text-sm font-medium">Contact</button>
+      <button mat-button routerLink="/about" class="text-sm font-medium">About Us</button>
+    </nav>
+  </div>
+
+  <a href="https://gt-url.com" target="_blank" rel="noopener noreferrer" class="flex items-center">
+    <img src="../../../../assets/gt-logo.png" alt="GT Logo" class="h-8 w-auto mr-4">
+  </a>
+</mat-toolbar>
