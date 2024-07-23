@@ -1,4 +1,27 @@
-<div class="faq-card mb-4 p-4 bg-white shadow-md rounded">
-    <h4 class="font-bold">{{ faq.question }}</h4>
-    <p class="mt-2">{{ faq.answer }}</p>
+<div class="faq-card">
+  <div 
+    class="flex items-center cursor-pointer py-4"
+    (click)="toggleExpanded()"
+  >
+    <h4 class="text-lg font-semibold text-gray-100 flex-grow">{{ faq.question }}</h4>
+    <svg 
+      class="w-6 h-6 text-white transition-transform duration-200 flex-shrink-0 ml-2 mr-4"
+      [ngClass]="{'transform rotate-180': expanded}"
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 24 24" 
+      fill="none" 
+      stroke="currentColor" 
+      stroke-width="2" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+    >
+      <polyline points="6 9 12 15 18 9"></polyline>
+    </svg>
   </div>
+  <div 
+    class="pb-4 text-gray-200"
+    [ngClass]="{'hidden': !expanded}"
+  >
+    <span class="text-lg text-gray-100">{{ faq.answer }}</span>
+  </div>
+</div>

@@ -6,11 +6,16 @@ import { FAQ } from '../../services/faqs.service';
 @Component({
   selector: 'app-faq-card',
   standalone: true,
-  imports: [CommonModule, MatExpansionModule],
+  imports: [CommonModule],
   templateUrl: './faq-card.component.html',
 })
 export class FaqCardComponent {
   @Input() faq!: FAQ;
+  expanded = false;
+
+  toggleExpanded() {
+    this.expanded = !this.expanded;
+  }
 
   ngOnInit() {
     console.log('FAQ received:', this.faq); // Add this line for debugging

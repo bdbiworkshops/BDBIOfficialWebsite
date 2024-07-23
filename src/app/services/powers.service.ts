@@ -13,19 +13,20 @@ export interface Power {
 })
 export class PowersService {
   private powers: Power[] = [
-    {
-      icon: 'cube',
-      title: 'Stay ahead of the curve with cutting-edge projects',
-      description: 'Join our club to gain valuable experience and skills in machine learning',
-      buttonText: 'Learn More',
-      buttonLink: '/learn-more'
-    },
+    
     {
       icon: 'cube',
       title: 'Collaborate with like-minded individuals on exciting projects',
       description: 'Expand your network and connect with industry professionals',
       buttonText: 'Sign Up',
       buttonLink: '/sign-up'
+    },
+    {
+      icon: 'cube',
+      title: 'Stay ahead of the curve with cutting-edge projects',
+      description: 'Join our club to gain valuable experience and skills in machine learning',
+      buttonText: 'Learn More',
+      buttonLink: '/learn-more'
     },
     {
       icon: 'cube',
