@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-landing',
+  selector: 'landing-container',
   standalone: true,
   imports: [],
   templateUrl: './landing.component.html',
 })
-export class LandingComponent {
+export class LandingContainerComponent {
 
 }

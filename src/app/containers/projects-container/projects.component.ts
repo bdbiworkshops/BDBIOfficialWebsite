@@ -1,11 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ProjectCardComponent } from '../../components/project-card/project-card.component';
+import { Project, ProjectsService } from '../../services/projects.service';
+
 
 @Component({
-  selector: 'app-projects',
+  selector: 'projects-container',
   standalone: true,
-  imports: [],
-  templateUrl: './projects.component.html',
+  imports: [CommonModule, ProjectCardComponent],
+  templateUrl: './projects.component.html'
 })
-export class ProjectsComponent {
+export class ProjectsContainerComponent implements OnInit {
+  projects: Project[] = [];
 
+  constructor(private projectsService: ProjectsService) {}
+
+  ngOnInit() {
+    this.projects = this.projectsService.getProjects();
+  }
 }
