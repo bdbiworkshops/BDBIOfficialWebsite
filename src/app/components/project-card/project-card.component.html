@@ -1,11 +1,9 @@
-<mat-card class="max-w-sm mx-auto my-auto">
-    <img mat-card-image [src]="imageUrl" [alt]="title">
-    <mat-card-content>
-      <mat-card-title>{{ title }}</mat-card-title>
-      <p>{{ description }}</p>
+<a [href]="link" target="_blank" class="block p-2">
+  <mat-card class="max-w-sm mx-auto my-auto transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg cursor-pointer bg-gray-800 overflow-hidden">
+    <img mat-card-image [src]="imageUrl" [alt]="title" class="w-full h-48 object-cover">
+    <mat-card-content class="bg-gray-500 text-gray-200 p-4 rounded-b-lg">
+      <mat-card-title class="pt-4 text-gray-100 text-xl font-bold mb-2">{{ title }}</mat-card-title>
+      <p class="text-gray-300">{{ description }}</p>
     </mat-card-content>
-    <mat-card-actions>
-      <a mat-button color="primary" [href]="link" target="_blank">Learn More</a>
-    </mat-card-actions>
-</mat-card> 
- 
+  </mat-card>
+</a>

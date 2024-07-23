@@ -1,18 +1,19 @@
-<div class="bg-white py-16">
-    <div class="container mx-auto px-4">
-      <h2 class="text-4xl md:text-5xl font-bold text-center mb-12">
-        Unlock the power of machine learning with our club
-      </h2>
-      
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <app-power-card 
-          *ngFor="let benefit of benefits"
-          [icon]="benefit.icon"
-          [title]="benefit.title"
-          [description]="benefit.description"
-          [buttonText]="benefit.buttonText"
-          [buttonLink]="benefit.buttonLink">
-        </app-power-card>
-      </div>
+<div class="bg-gray-100 py-16">
+  <div class="container mx-auto px-4 bg-gray-100">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-gray-800">
+      Unlock the power of machine learning with our club
+    </h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <app-power-card 
+        *ngFor="let benefit of benefits"
+        [icon]="benefit.icon"
+        [title]="benefit.title"
+        [description]="benefit.description"
+        [buttonText]="benefit.buttonText"
+        [buttonLink]="benefit.buttonLink">
+      </app-power-card>
     </div>
   </div>
+</div>
+
