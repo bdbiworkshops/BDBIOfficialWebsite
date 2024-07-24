@@ -1,21 +1,29 @@
-<main>
-  <landing-container></landing-container>
-   
-  <section id="projects">
+<!-- Back to Top button -->
+<button 
+  *ngIf="showBackToTop"
+  (click)="scrollToTop()"
+  class="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 bg-blue-500 text-white px-4 py-2 rounded-full shadow-lg transition-opacity duration-300 flex items-center space-x-2"
+>
+  <span>Back to Top</span>
+  <mat-icon>arrow_upward</mat-icon>
+</button>
+
+<main role="main" class="relative">
+  <landing-container #landingContainer></landing-container>
+
+  <div id="projects" class="section">
     <projects-container></projects-container>
-  </section>
-  
-  <section id="benefits">
+  </div>
+
+  <div id="benefits" class="section">
     <benefits-container></benefits-container>
-  </section>
- 
-  
-  
-  <section id="faq">
-    <app-faq-container></app-faq-container>
-  </section>
-  
-  <section id="contact">
+  </div>
+
+  <div id="faqs" class="section">
+    <faq-container></faq-container>
+  </div>
+
+  <div id="contact" class="section">
     <contact-container></contact-container>
-  </section>
+  </div>
 </main>
