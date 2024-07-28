@@ -1,21 +1,18 @@
-<!-- <div class="bg-white-100 py-16">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-4">Frequently Asked Questions</h2>
-      <p class="text-xl text-center text-gray-600 mb-12">
-        Find answers to commonly asked questions about the club and its activities.
-      </p>   
-      <ng-container *ngIf="faqs.length > 0; else noFaqs">
-        <div *ngFor="let faq of faqs; let i = index">
-          <app-faq-card [faq]="faq"></app-faq-card>
-        </div>
-      </ng-container>
-      
-      <ng-template #noFaqs>
-        <p class="text-center">No FAQs available at the moment.</p>
-      </ng-template>
+<div class="relative py-16">
+  <div class="absolute inset-0 bg-gradient-to-b from-blue-500 to-blue-300"></div>
+  <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+  <div class="relative z-10 container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8 text-white">Frequently Asked Questions</h2>
+    <p class="text-center text-white mb-8">Find answers to commonly asked questions about the club and its activities.</p>
+    <div class="bg-gray-800 rounded-lg shadow-lg">
+      <app-faq-card *ngFor="let faq of faqs" [faq]="faq"></app-faq-card>
+      <div *ngIf="faqs.length === 0" class="text-center text-white p-4">
+        No FAQs available at the moment.
+      </div>
     </div>
-  </div> -->
-  <div class="relative py-16">
+  </div>
+</div>
+  <!-- <div class="relative py-16">
     <div class="absolute inset-0 bg-gradient-to-b from-blue-500 to-blue-300"></div>
     <div class="absolute inset-0 bg-black opacity-50"></div>
   
@@ -35,4 +32,4 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
