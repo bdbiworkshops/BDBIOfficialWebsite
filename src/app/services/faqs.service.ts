@@ -11,7 +11,7 @@ export interface FAQ {
 export class FaqService {
   private faqs: FAQ[] = [
     {
-      question: "What is the bdbi's focus?",
+      question: "What is bdbi's focus?",
       answer: "bdbi is focused on machine learning and its applications in various fields such as data analysis, predictive modeling, and pattern recognition."
     },
     {
