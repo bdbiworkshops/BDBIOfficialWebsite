@@ -10,5 +10,5 @@ import { NavbarContainerComponent } from "./containers/navbar-container/navbar.c
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'BDBI-Website2';
+  title = 'BDBI-Website';
 }

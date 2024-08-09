@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "BDBI-Website2": {
+    "BDBI-Website": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "BDBI-Website2:build:production"
+              "buildTarget": "BDBI-Website:build:production"
             },
             "development": {
-              "buildTarget": "BDBI-Website2:build:development"
+              "buildTarget": "BDBI-Website:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "BDBI-Website2:build"
+            "buildTarget": "BDBI-Website:build"
           }
         },
         "test": {
