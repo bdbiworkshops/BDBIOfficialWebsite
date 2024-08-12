@@ -16,7 +16,7 @@ export class FaqService {
     },
     {
       question: "How can I join?",
-      answer: "To become a member, simply attend one of our meetings or events and express your interest to the organizers."
+      answer: "To become a member, simply attend one of our weekly events starting Tuesday, August 27th, 2024 at Klaus 1456 and express your interest!"
     },
     {
       question: "What projects does bdbi work on?",
