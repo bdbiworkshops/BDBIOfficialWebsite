@@ -10,6 +10,6 @@ import { MatButtonModule } from '@angular/material/button';
 export class ContactContainerComponent {
   sendEmail() {
     // Replace 'your-email@example.com' with your actual email address
-    window.location.href = 'mailto:gragy3@gatech.edu';
+    window.location.href = 'mailto:gtbigdata@gmail.com';
   }
 }
