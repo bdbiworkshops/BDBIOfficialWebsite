@@ -9,6 +9,7 @@ import { BenefitsContainerComponent } from '../../containers/benefits-container/
 import { ContactContainerComponent } from '../../containers/contact/contact.component';
 import { FaqCardComponent } from "../../components/faq-card/faq-card.component";
 import { FaqContainerComponent } from "../../containers/faq-container/faq-container.component";
+import { NewsContainerComponent } from "../../containers/news-container/news-container.component";
 
 @Component({
   selector: 'app-home',
@@ -23,8 +24,9 @@ import { FaqContainerComponent } from "../../containers/faq-container/faq-contai
     BenefitsContainerComponent,
     ContactContainerComponent,
     FaqCardComponent,
-    FaqContainerComponent
-  ],
+    FaqContainerComponent,
+    NewsContainerComponent
+],
   templateUrl: './home.component.html',
 })
 export class HomeComponent implements AfterViewInit {
