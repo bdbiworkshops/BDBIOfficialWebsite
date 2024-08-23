@@ -9,7 +9,6 @@
     "test": "ng test",
     "serve:ssr:BDBI-Website2": "node dist/bdbi-website2/server/server.mjs",
     "deploy": "npx gh-pages -d docs"
-
   },
   "private": true,
   "dependencies": {
@@ -48,7 +47,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "postcss": "^8.4.39",
-    "tailwindcss": "^3.4.6",
+    "tailwindcss": "^3.4.10",
     "typescript": "~5.4.2"
   }
 }
