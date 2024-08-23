@@ -63,11 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              
-              "buildTarget": "BDBIOfficialWebsite:build:production"
+              "buildTarget": "BDBI-Website:build:production"
             },
             "development": {
-              "buildTarget": "BDBIOfficialWebsite:build:development"
+              "buildTarget": "BDBI-Website:build:development"
             }
           },
           "defaultConfiguration": "development"

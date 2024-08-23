@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path docs --base-href  /BDBIOfficialWebsite/",
+    "build": "ng build --output-path docs --base-href https://thefunnypapa.github.io/BDBI-Website.github.io/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:BDBI-Website2": "node dist/bdbi-website2/server/server.mjs",
