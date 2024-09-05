@@ -10,6 +10,7 @@ import { ContactContainerComponent } from '../../containers/contact/contact.comp
 import { FaqCardComponent } from "../../components/faq-card/faq-card.component";
 import { FaqContainerComponent } from "../../containers/faq-container/faq-container.component";
 import { NewsContainerComponent } from "../../containers/news-container/news-container.component";
+import { CalendarContainerComponent } from '../../containers/calendar-container/calendar-container.component';
 
 @Component({
   selector: 'app-home',
@@ -25,8 +26,9 @@ import { NewsContainerComponent } from "../../containers/news-container/news-con
     ContactContainerComponent,
     FaqCardComponent,
     FaqContainerComponent,
-    NewsContainerComponent
-],
+    NewsContainerComponent,
+    CalendarContainerComponent
+  ],
   templateUrl: './home.component.html',
 })
 export class HomeComponent implements AfterViewInit {
@@ -35,10 +37,9 @@ export class HomeComponent implements AfterViewInit {
   landingContainerHeight = 0;
 
   ngAfterViewInit() {
-    // Set the landing container height after view initialization
     setTimeout(() => {
       this.landingContainerHeight = this.landingContainer.nativeElement.offsetHeight;
-      this.onWindowScroll(); // Check initial scroll position
+      this.onWindowScroll();
     });
   }
 
