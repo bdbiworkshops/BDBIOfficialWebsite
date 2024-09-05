@@ -1,5 +1,4 @@
 <!-- Back to Top button -->
-<news-container [details]="'August 27th, 6:30 PM, at Klaus 1456'"></news-container>
 <button 
   *ngIf="showBackToTop"
   (click)="scrollToTop()"
@@ -27,4 +26,5 @@
   <div id="contact" class="section">
     <contact-container></contact-container>
   </div>
+  <app-calendar-container id="calendar" class="section block mb-8"></app-calendar-container>
 </main>
