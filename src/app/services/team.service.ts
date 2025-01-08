@@ -37,18 +37,18 @@ export class TeamService {
     },
     {
       name: 'Quan Le',
-      role: 'Data Platform Workshop Lead',
+      role: 'Platform Workshop Lead',
       schoolYear: '3rd Year',
       image: 'assets/quan.jpeg',
       linkedIn: 'https://www.linkedin.com/in/quan-le14'
     },
-    
+
     {
-      name: 'Drishti Jain',
-      role: 'Analysis Workshop Lead',
-      schoolYear: 'Masters',
-      image: 'assets/drishti.jpeg',
-      linkedIn: 'http://linkedin.com/in/jaindrishti/'
+      name: 'Raymond Zeng',
+      role: 'Data Analysis Workshop Lead',
+      schoolYear: '2nd Year',
+      image: 'assets/raymond.jpeg',
+      linkedIn: 'https://www.linkedin.com/in/raymondrzeng/'
     },
     {
       name: 'Heeba Merchant',
@@ -70,6 +70,13 @@ export class TeamService {
       schoolYear: '3rd year',
       image: 'assets/srimaaye.jpeg',
       linkedIn: 'https://www.linkedin.com/in/srimaaye-jegannathan/'
+    },
+    {
+      name: 'Ari Nair',
+      role: 'Platform Lead - Flight Delay Prediction',
+      schoolYear: '3rd Year',
+      image: 'assets/ari.jpeg',
+      linkedIn: 'https://www.linkedin.com/in/ari-nair/'
     },
     {
       name: 'Ibhan Aggarwal',
@@ -96,7 +103,7 @@ export class TeamService {
       name: 'Ryan Clark',
       role: 'Project Lead - VR State Analysis',
       schoolYear: '4th Year',
-      image: 'assets/ryan.jpg',
+      image: 'assets/ryan.jpeg',
       linkedIn: 'https://www.linkedin.com/in/ryangerhardclark/'
     },
     {
@@ -114,36 +121,69 @@ export class TeamService {
       linkedIn: 'https://www.linkedin.com/in/huaijin-tu-912627224/'
     },
     {
-      name: 'Raymond Zeng',
-      role: 'Project Lead - Arrythmia Detection',
-      schoolYear: '2nd Year',
-      image: 'assets/raymond.jpeg',
-      linkedIn: 'https://www.linkedin.com/in/raymondrzeng/'
-    },
-    {
-      name: 'Ari Nair',
-      role: 'Platform Lead - Flight Delay Prediction',
-      schoolYear: '3rd Year',
-      image: 'assets/ari.jpeg',
-      linkedIn: 'https://www.linkedin.com/in/ari-nair/'
-    },
-    
-    {
-      name: 'Prithiv Premkumar',
-      role: 'Project Lead - VR State Analysis',
-      schoolYear: '2nd Year',
-      image: 'assets/prithiv.jpg',
-      linkedIn: 'https://www.linkedin.com/in/prithiv-premkumar/'
-    },
-    {
       name: 'Pranav Somu',
       role: 'Project Lead - Agricultural Productivity',
       schoolYear: '2nd Year',
       image: 'assets/pranav2.jpg',
       linkedIn: 'https://www.linkedin.com/in/pranav-somu/'
     },
-    
-    // Add more team members as needed
+    {
+      name: 'Ken Shibata',
+      role: 'Project Lead - VR State Analysis',
+      schoolYear: '1st Year',
+      image: 'assets/ken.JPG',
+      linkedIn: 'https://www.linkedin.com/in/ken-shibata/'
+    },
+
+    {
+      name: 'Aaron Lee',
+      role: 'Project Lead - Stinger Bus Delay',
+      schoolYear: '2nd Year',
+      image: 'assets/aaron.jpeg',
+      linkedIn: 'https://www.linkedin.com/in/aaronlee1031'
+    },
+    {
+      name: 'Ruhi Patel',
+      role: 'Project Lead - Stinger Bus Delay',
+      schoolYear: '1st Year',
+      image: 'assets/ruhi.jpg',
+      linkedIn: 'https://www.linkedin.com/in/ruhi-patel-749144246'
+    },
+    {
+      name: 'Parth Parikh',
+      role: 'Project Lead - SimpliEarn',
+      schoolYear: '1st Year',
+      image: 'assets/parth.jpg',
+      linkedIn: 'https://www.linkedin.com/in/parthparikh04'
+    },
+    {
+      name: 'Vidyut Rajagopal',
+      role: 'Project Lead - SimpliEarn',
+      schoolYear: '1st Year',
+      image: 'assets/vidyut.jpeg',
+      linkedIn: 'https://www.linkedin.com/in/vidyut-rajagopal//'
+    },
+    {
+      name: 'Nehal Singhal',
+      role: 'Project Lead - DataGen',
+      schoolYear: '1st Year',
+      image: 'assets/nehal.jpeg',
+      linkedIn: 'https://www.linkedin.com/in/nehal-singhal-b56a891ab/'
+    },
+    {
+      name: 'Riyan Patel',
+      role: 'Project Lead - DataGen',
+      schoolYear: '1st Year',
+      image: 'assets/riyanp.JPG',
+      linkedIn: 'http://www.linkedin.com/in/riyan-patel17'
+    },
+    {
+      name: 'Abhik Mojumdar',
+      role: 'Project Lead - DataGen',
+      schoolYear: '1st Year',
+      image: 'assets/abhik.jpeg',
+      linkedIn: 'https://www.linkedin.com/in/abhik-mojumdar-596a372b9/'
+    },
   ];
 
   constructor() { }
