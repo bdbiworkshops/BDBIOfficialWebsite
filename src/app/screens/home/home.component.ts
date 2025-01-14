@@ -11,6 +11,7 @@ import { FaqCardComponent } from "../../components/faq-card/faq-card.component";
 import { FaqContainerComponent } from "../../containers/faq-container/faq-container.component";
 import { NewsContainerComponent } from "../../containers/news-container/news-container.component";
 import { CalendarContainerComponent } from '../../containers/calendar-container/calendar-container.component';
+import { BannerComponent } from "../../components/banner/banner.component";
 
 @Component({
   selector: 'app-home',
@@ -27,8 +28,9 @@ import { CalendarContainerComponent } from '../../containers/calendar-container/
     FaqCardComponent,
     FaqContainerComponent,
     NewsContainerComponent,
-    CalendarContainerComponent
-  ],
+    CalendarContainerComponent,
+    BannerComponent
+],
   templateUrl: './home.component.html',
 })
 export class HomeComponent implements AfterViewInit {
