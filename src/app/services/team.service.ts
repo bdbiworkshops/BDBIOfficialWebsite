@@ -73,7 +73,7 @@ export class TeamService {
     },
     {
       name: 'Ari Nair',
-      role: 'Platform Lead - Flight Delay Prediction',
+      role: 'Project Lead - Flight Delay Prediction',
       schoolYear: '3rd Year',
       image: 'assets/ari.jpeg',
       linkedIn: 'https://www.linkedin.com/in/ari-nair/'
@@ -162,6 +162,13 @@ export class TeamService {
       schoolYear: '1st Year',
       image: 'assets/vidyut.jpeg',
       linkedIn: 'https://www.linkedin.com/in/vidyut-rajagopal//'
+    },
+    {
+      name: 'Ritwij Ghosh',
+      role: 'Project Lead - SimpliEarn',
+      schoolYear: '1st Year',
+      image: 'assets/ritwij.jpeg',
+      linkedIn: 'https://www.linkedin.com/in/ritwij-ghosh-6532a923b/'
     },
     {
       name: 'Nehal Singhal',

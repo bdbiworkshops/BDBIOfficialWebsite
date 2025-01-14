@@ -12,55 +12,65 @@ export interface Project {
 })
 export class ProjectsService {
   private projects: Project[] = [
-    {
-      imageUrl: 'assets/protein.jpeg',
-      title: 'Protein Synthesis',
-      description: 'Exploring generative-AI approaches to synthesizing novel biomolecules and proteins.',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdEEacQ38d8t4PHrX3QNCW4FYoh2TBWvl16IWjdOlbL0yU04Q/viewform?usp=sf_link'
-    },
+    
    
     {
       imageUrl: 'assets/flightdelay.png',
       title: 'Flight Delay Detector',
-      description: 'Giving flyers more information about delays upon booking a ticket, saving time, stress, and energy.',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdEEacQ38d8t4PHrX3QNCW4FYoh2TBWvl16IWjdOlbL0yU04Q/viewform?usp=sf_link'
+      description: 'Giving flyers more information about delays upon searching for tickets, saving time, stress, and energy.',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
     },
     {
       imageUrl: 'assets/vremotion.png',
       title: 'VR State Analysis',
-      description: 'Research into motion data extracted from VR devices to predict heart rate, disease risk, stress, and emotions.',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdEEacQ38d8t4PHrX3QNCW4FYoh2TBWvl16IWjdOlbL0yU04Q/viewform?usp=sf_link'
+      description: 'Predict stress, emotions, and disease risk from already-available VR headset motion sensor data in real-time.',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
     },
     {
       imageUrl: 'assets/memorai.jpg',
       title: 'MemoirAI',
-      description: 'Intelligent memory companion that intuitively stores, tags, and retrieves images, notes, and videos on cloud',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdEEacQ38d8t4PHrX3QNCW4FYoh2TBWvl16IWjdOlbL0yU04Q/viewform?usp=sf_link'
+      description: 'Intelligent memory companion that intuitively stores, tags, and retrieves images, notes, and videos on cloud.',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
     },    
-    {
-      imageUrl: 'assets/icarebot.jpg',
-      title: 'iCareBot',
-      description: 'Develop a conversational AI interface powered by a domain-specific language model (LLM) trained on healthcare data to enable users to intuitively interact with their health data.',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdEEacQ38d8t4PHrX3QNCW4FYoh2TBWvl16IWjdOlbL0yU04Q/viewform?usp=sf_link'
-    },
     {
       imageUrl: 'assets/agriculture.jpg',
       title: 'Agricultural Productivity',
-      description: 'Cropland type and yield predictions (with computer vision & temporal models) to support farmers and UN Zero Hunger',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdEEacQ38d8t4PHrX3QNCW4FYoh2TBWvl16IWjdOlbL0yU04Q/viewform?usp=sf_link'
+      description: 'Cropland type and yield predictions (with computer vision & temporal models) to support farmers and UN Zero Hunger.',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
+    },
+    
+    {
+      imageUrl: 'assets/simpli.png',
+      title: 'SimpliEarn',
+      description: 'Making financial earnings calls easy and understandable to novice investors through an interactive dashboard.',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
+    },
+    
+    {
+      imageUrl: 'assets/stinger.png',
+      title: 'Stinger Delay',
+      description: 'Using AI to improve the quality of public transportation at Georgia Tech by providing delay predictions for the Stinger buses.',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
     },
     {
-      imageUrl: 'assets/cardiac.jpg',
-      title: 'Arrythmia Detection',
-      description: 'AI to help detect heart arrythmia using deep learning and machine learning techniques on heart beat audio and EKGs',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdEEacQ38d8t4PHrX3QNCW4FYoh2TBWvl16IWjdOlbL0yU04Q/viewform?usp=sf_link'
+      imageUrl: 'assets/protein.jpeg',
+      title: 'Protein Synthesis',
+      description: 'Exploring generative-AI approaches to synthesizing novel biomolecules and proteins.',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
+    },
+    {
+      imageUrl: 'assets/datagen.png',
+      title: 'DataGen',
+      description: 'Generating custom datasets by learning from user feedback to help engineers and researchers acquire large amounts of data from the web.',
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
     },
     {
       imageUrl: 'assets/smartpath.png',
       title: 'SmartPathAI',
       description: 'Transform your mistakes into mastery with AI-powered personalized learning paths.',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdEEacQ38d8t4PHrX3QNCW4FYoh2TBWvl16IWjdOlbL0yU04Q/viewform?usp=sf_link'
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
     },
+    
   ];
 
   getProjects(): Project[] {

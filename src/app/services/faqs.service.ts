@@ -16,7 +16,7 @@ export class FaqService {
     },
     {
       question: "How can I join?",
-      answer: "To become a member, simply attend one of our weekly events starting Tuesday, August 27th, 2024 at Klaus 1456 and express your interest!"
+      answer: "To become a member, simply attend one of our weekly events starting Thursday, January 16th, 2025 at Klaus 1456 and express your interest! Applications are due on January 19th at 11:59PM"
     },
     {
       question: "What projects does bdbi work on?",
@@ -24,11 +24,11 @@ export class FaqService {
     },
     {
       question: "Are there any prerequisites to join?",
-      answer: "There are no specific prerequisites to join bdbi. We welcome students from all backgrounds who are interested in machine learning."
+      answer: "There are no specific prerequisites to join bdbi. We welcome students from all backgrounds who are interested in Machine Learning, Software Development, and User Experience."
     },
     {
       question: "How often does bdbi meet?",
-      answer: "bdbi meets once a week for presentations, workshops, and discussions on various machine learning topics."
+      answer: "bdbi meets once a week for presentations, workshops, and discussions on various machine learning topics. This is seperate from project meetings, where each team meets seperately to coordinate/work on their project."
     }
   ];
 

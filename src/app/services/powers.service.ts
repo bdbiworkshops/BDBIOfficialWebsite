@@ -18,8 +18,8 @@ export class PowersService {
       icon: 'cube',
       title: 'Collaborate with like-minded individuals on exciting projects',
       description: 'Expand your network and connect with industry professionals',
-      buttonText: 'Sign Up',
-      buttonLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdEEacQ38d8t4PHrX3QNCW4FYoh2TBWvl16IWjdOlbL0yU04Q/viewform?usp=sf_link'
+      buttonText: 'Apply Now',
+      buttonLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
     },
     {
       icon: 'cube',
@@ -32,8 +32,8 @@ export class PowersService {
       icon: 'cube',
       title: 'Get experience with real-world machine learning applications',
       description: 'Join bdbi to gain hands-on experience and skills in machine learning',
-      buttonText: 'Join Now',
-      buttonLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdEEacQ38d8t4PHrX3QNCW4FYoh2TBWvl16IWjdOlbL0yU04Q/viewform?usp=sf_link'
+      buttonText: 'Checkout our Github',
+      buttonLink: 'https://github.com/gt-big-data'
     },
   ];
 
