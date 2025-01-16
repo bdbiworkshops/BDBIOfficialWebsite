@@ -191,6 +191,13 @@ export class TeamService {
       image: 'assets/abhik.jpeg',
       linkedIn: 'https://www.linkedin.com/in/abhik-mojumdar-596a372b9/'
     },
+    {
+      name: 'Paarth Mishra',
+      role: 'Project Lead - DataGen',
+      schoolYear: '1st Year',
+      image: 'assets/paarthmishra.png',
+      linkedIn: 'https://www.linkedin.com/in/paarth-mishra-58331a217/'
+    },
   ];
 
   constructor() { }
