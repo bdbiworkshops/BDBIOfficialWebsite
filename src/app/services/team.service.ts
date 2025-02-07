@@ -114,13 +114,6 @@ export class TeamService {
       linkedIn: 'https://www.linkedin.com/in/pranavnarala'
     },
     {
-      name: 'Juaijin Tony Tu',
-      role: 'Project Lead - MemoirAI',
-      schoolYear: '4th Year',
-      image: 'assets/tony.jpeg',
-      linkedIn: 'https://www.linkedin.com/in/huaijin-tu-912627224/'
-    },
-    {
       name: 'Pranav Somu',
       role: 'Project Lead - Agricultural Productivity',
       schoolYear: '2nd Year',

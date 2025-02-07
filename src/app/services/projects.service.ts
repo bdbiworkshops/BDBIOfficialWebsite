@@ -25,13 +25,7 @@ export class ProjectsService {
       title: 'VR State Analysis',
       description: 'Predict stress, emotions, and disease risk from already-available VR headset motion sensor data in real-time.',
       link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
-    },
-    {
-      imageUrl: 'assets/memorai.jpg',
-      title: 'MemoirAI',
-      description: 'Intelligent memory companion that intuitively stores, tags, and retrieves images, notes, and videos on cloud.',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe_Liu4tMDcHAZLCHPSD7BtOwqcIcQuWXcYgEOetuclnw0KMg/viewform'
-    },    
+    },   
     {
       imageUrl: 'assets/agriculture.jpg',
       title: 'Agricultural Productivity',
