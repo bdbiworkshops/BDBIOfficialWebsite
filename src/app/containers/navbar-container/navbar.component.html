@@ -1,9 +1,10 @@
 <mat-toolbar class="flex justify-between items-center px-4 py-2">
   <div class="flex items-center">
-    <a href="https://github.com/gt-big-data" target="_blank" rel="noopener noreferrer" class="flex items-center ml-4 mr-6">
+    <a href="https://github.com/gt-big-data" target="_blank" rel="noopener noreferrer"
+      class="flex items-center ml-4 mr-6">
       <img src="assets/bdbi-logo.png" alt="BDBI Logo" class="h-8 w-auto object-contain min-h-500 min-w-20">
     </a>
-    
+
     <nav class="flex items-center space-x-4">
       <button mat-button (click)="navigateToSection('projects')" class="text-sm font-medium">Projects</button>
       <button mat-button (click)="navigateToSection('benefits')" class="text-sm font-medium">Benefits</button>
@@ -11,10 +12,12 @@
       <button mat-button (click)="navigateToSection('contact')" class="text-sm font-medium">Contact</button>
       <button mat-button routerLink="/about" class="text-sm font-medium">About Us</button>
       <button mat-button (click)="navigateToSection('calendar')" class="text-sm font-medium">Calendar</button>
+      <button mat-button (click)="openKnowledgeBase()" class="text-sm font-medium">Knowledge Base</button>
     </nav>
   </div>
 
-  <a href="https://www.cc.gatech.edu/student-organizations" target="_blank" rel="noopener noreferrer" class="flex items-center">
+  <a href="https://www.cc.gatech.edu/student-organizations" target="_blank" rel="noopener noreferrer"
+    class="flex items-center">
     <img src="assets/gt-logo.png" alt="GT Logo" class="h-8 w-auto mr-4 object-contain min-w-8 min-h-8">
   </a>
 </mat-toolbar>
