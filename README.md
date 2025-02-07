@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `docs/` directory. Currently (Jan 20205), ng build will create a server and a browser folder under docs. Make sure to copy everything in the browser folder and paste it at the root level under docs so that github pages can see the files. Also, everytime you build, make sure that the custom domain under github pages is set to gtbigdatabigimpact.com - every now and then it likes to erase itself when pushing new builds. 
+Run `ng build` to build the project. The build artifacts will be stored in the `docs/` directory. Currently (Jan 2025), ng build will create a server and a browser folder under docs. Make sure to copy everything in the browser folder and paste it at the root level under docs so that github pages can see the files. Also, everytime you build, make sure that the custom domain under github pages is set to gtbigdatabigimpact.com - every now and then it likes to erase itself when pushing new builds. 
 ## Domain registration
 
 The domain was purchased on NameCheap. Ask Gabriel Ragy to sign in with his personal account if he has not transferred the domain to a BDBI account yet. This is important for domain renewal (Expires November 7th 2025). Gabriel expects on graduating in December 2025, so make sure the transfer is done before then!
