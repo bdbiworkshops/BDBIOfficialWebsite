@@ -2,10 +2,10 @@
   <div class="flex items-center">
     <a href="https://github.com/gt-big-data" target="_blank" rel="noopener noreferrer"
       class="flex items-center ml-4 mr-6">
-      <img src="assets/bdbi-logo.png" alt="BDBI Logo" class="h-8 w-auto object-contain min-h-500 min-w-20">
+      <img src="assets/bdbi-logo.png" alt="BDBI Logo" class="h-6 w-auto object-contain min-h-500 min-w-20">
     </a>
 
-    <nav class="flex items-center space-x-4">
+    <nav class="flex items-center lg:space-x-4 hidden md:block">
       <button mat-button (click)="navigateToSection('projects')" class="text-sm font-medium">Projects</button>
       <button mat-button (click)="navigateToSection('benefits')" class="text-sm font-medium">Benefits</button>
       <button mat-button (click)="navigateToSection('faqs')" class="text-sm font-medium">FAQs</button>
@@ -18,6 +18,11 @@
 
   <a href="https://www.cc.gatech.edu/student-organizations" target="_blank" rel="noopener noreferrer"
     class="flex items-center">
-    <img src="assets/gt-logo.png" alt="GT Logo" class="h-8 w-auto mr-4 object-contain min-w-8 min-h-8">
+    <img src="assets/gt-logo.png" alt="GT Logo" class="h-8 w-auto mr-4 object-contain min-w-8 min-h-8 hidden md:block">
   </a>
+  <div class = "md:hidden block">
+    <button mat-button (click)="toggleMenu()" class="md:hidden block">
+      <img src="assets/Hamburger_icon.svg" alt="Menu" class="h-6 w-auto">
+    </button>
+  </div>
 </mat-toolbar>

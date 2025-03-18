@@ -31,6 +31,10 @@ export class NavbarContainerComponent {
     window.open('https://drive.google.com/drive/folders/17CXGjtP54IrtFLrVEy_E1m6hFmO5JRmc?usp=sharing', '_blank');
   }
 
+  toggleMenu() {
+    
+  }
+
   private scrollToSection(sectionId: string): void {
     const element = this.document.getElementById(sectionId);
     if (element) {
