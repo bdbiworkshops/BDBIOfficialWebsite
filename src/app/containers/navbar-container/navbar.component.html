@@ -26,3 +26,14 @@
     </button>
   </div>
 </mat-toolbar>
+<div class="hidden" id="menu">
+  <mat-nav-list>
+    <mat-list-item (click)="navigateToSection('projects')" class="text-sm font-medium">Projects</mat-list-item>
+    <mat-list-item (click)="navigateToSection('benefits')" class="text-sm font-medium">Benefits</mat-list-item>
+    <mat-list-item (click)="navigateToSection('faqs')" class="text-sm font-medium">FAQs</mat-list-item>
+    <mat-list-item (click)="navigateToSection('contact')" class="text-sm font-medium">Contact</mat-list-item>
+    <mat-list-item routerLink="/about" class="text-sm font-medium">About Us</mat-list-item>
+    <mat-list-item (click)="navigateToSection('calendar')" class="text-sm font-medium">Calendar</mat-list-item>
+    <mat-list-item (click)="openKnowledgeBase()" class="text-sm font-medium">Knowledge Base</mat-list-item>
+  </mat-nav-list>
+</div>
