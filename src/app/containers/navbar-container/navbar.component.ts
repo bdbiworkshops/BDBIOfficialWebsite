@@ -4,10 +4,13 @@ import { Router, RouterModule } from '@angular/router';
 import { CommonModule, DOCUMENT } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+
 @Component({
   selector: 'navbar-container',
   standalone: true,
-  imports: [CommonModule, RouterModule, MatButtonModule, MatToolbarModule],
+  imports: [CommonModule, RouterModule, MatButtonModule, MatToolbarModule, MatSidenavModule, MatListModule],
   templateUrl: './navbar.component.html',
 })
 export class NavbarContainerComponent {
@@ -29,6 +32,11 @@ export class NavbarContainerComponent {
   }
   openKnowledgeBase() {
     window.open('https://drive.google.com/drive/folders/17CXGjtP54IrtFLrVEy_E1m6hFmO5JRmc?usp=sharing', '_blank');
+  }
+
+  toggleMenu() {
+    const menu = this.document.getElementById('menu');
+    menu?.classList.toggle('hidden');
   }
 
   private scrollToSection(sectionId: string): void {
