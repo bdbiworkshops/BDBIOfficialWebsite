@@ -228,9 +228,9 @@ export class TeamService {
     {
       name: 'Paul Evans',
       role: 'Project Lead - FishCast',
-      schoolYear: '3rd Year',
-      image: '',
-      linkedIn: ''
+      schoolYear: '2nd Year',
+      image: 'assets/paul.jpg',
+      linkedIn: 'https://www.linkedin.com/in/paul-jai-evans'
     },
         {
       name: 'Rick Lee',
