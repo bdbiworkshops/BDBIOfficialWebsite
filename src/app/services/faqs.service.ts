@@ -16,7 +16,7 @@ export class FaqService {
     },
     {
       question: "How can I join?",
-      answer: "To become a member, simply attend one of our weekly events starting Tuesday, September 9th, 2025 at Weber Classroom 1 and express your interest! Applications are due on Saturday, September 6th, 2025 at 11:59PM"
+      answer: "Come to our Fall Kickoff on Wednesday, August 28th at 6:30 PM in Weber Classroom 1 and apply to be placed on a project team! Applications are due Saturday, September 6th, 2025 at 11:59 PM."
     },
     {
       question: "What projects does bdbi work on?",
