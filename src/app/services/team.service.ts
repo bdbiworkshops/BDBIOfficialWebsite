@@ -170,13 +170,6 @@ export class TeamService {
       linkedIn: 'https://www.linkedin.com/in/gs-softwaredev/'
     },
     {
-      name: 'Vidyut Rajagopal',
-      role: 'Project Lead - SimpliEarn',
-      schoolYear: '2nd Year',
-      image: 'assets/vidyut.jpeg',
-      linkedIn: 'https://www.linkedin.com/in/vidyut-rajagopal//'
-    },
-    {
       name: 'Ritwij Ghosh',
       role: 'Project Lead - SimpliEarn',
       schoolYear: '2nd Year',
@@ -197,21 +190,7 @@ export class TeamService {
       image: 'assets/riyanp.JPG',
       linkedIn: 'http://www.linkedin.com/in/riyan-patel17'
     },
-    {
-      name: 'Abhik Mojumdar',
-      role: 'Project Lead - DataGen',
-      schoolYear: '2nd Year',
-      image: 'assets/abhik.jpeg',
-      linkedIn: 'https://www.linkedin.com/in/abhik-mojumdar-596a372b9/'
-    },
-    {
-      name: 'Paarth Mishra',
-      role: 'Project Lead - DataGen',
-      schoolYear: '2nd Year',
-      image: 'assets/paarthmishra.png',
-      linkedIn: 'https://www.linkedin.com/in/paarth-mishra-58331a217/'
-    },
-        {
+      {
       name: 'Jevon Twitty',
       role: 'Project Lead - FishCast',
       schoolYear: '3rd Year',
